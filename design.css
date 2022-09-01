@@ -29,7 +29,17 @@
 .link{
 	padding: 20px;
 }
-
+.quote{
+	width: 80%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.quote-text{
+	color: #1F2937;
+	font-size: 36px;
+	font-style: italic;
+}
 .logo{
 	position: relative;
 	width: 20%;
