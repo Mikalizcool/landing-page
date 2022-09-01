@@ -26,6 +26,11 @@
 .companions{
 	display: flex;
 }
+.companion-message{
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+}
 .link{
 	padding: 20px;
 }
@@ -88,6 +93,7 @@ content{
 	width: 100%;
 	text-align: center;
 	font-weight: bold;
+	font-size: 20px;
 }
 .portrait{
 	position: relative;
