@@ -1,0 +1,91 @@
+*{
+	font-family:gabriola;
+}
+
+.flex-container{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+}
+.flex-container1{
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content:center;
+}
+
+.nav{
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: row wrap;
+	width: 60%;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+.companions{
+	display: flex;
+}
+.link{
+	padding: 20px;
+	
+}
+
+.logo{
+	position: relative;
+	width: 20%;
+	height: auto;
+	border-radius: 50%;
+}
+h1{
+	position: relative;
+	font-size: 48px;
+	color: #F9FAF8;
+	margin-bottom:0px;
+}
+p{
+	
+}
+.bonfire{
+	display: flex;
+	width: 40%;
+}
+.message{
+	width: 40%;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+.button{
+  font-size: 24px;
+  display: inline-block;
+  padding: 10px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #474747;
+  background-color: white;
+  border: 1px solid #474747;
+  border-radius: 30px;
+  margin:4px;
+}
+header{
+	background-color: #1F2937;
+}
+content{
+	background-color: white;
+}
+.names{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.portrait{
+	position: relative;
+	height: auto;
+	border-radius: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
