@@ -22,6 +22,7 @@
 	width: 55%;
 	font-size: 18px;
 	color: #E5E7EB;
+	padding: 20px;
 }
 .companions{
 	display: flex;
@@ -32,7 +33,14 @@
 	font-style: italic;
 }
 .link{
-	padding: 20px;
+	font-size: 25px;
+	padding: 15px;
+	padding-right: 30px;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
 }
 .quote{
 	width: 80%;
@@ -78,7 +86,7 @@ p{
 .bonfire-container{
 	display: flex;
 	width: 40%;
-	justify-content: center;
+	justify-content: right;
 }
 
 .message{
