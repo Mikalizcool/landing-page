@@ -19,7 +19,7 @@
 	display: flex;
 	justify-content: flex-end;
 	flex-flow: row wrap;
-	width: 60%;
+	width: 55%;
 	font-size: 18px;
 	color: #E5E7EB;
 }
@@ -47,10 +47,10 @@
 }
 .logo{
 	position: relative;
-	width: 40%;
+	width: 45%;
 	height: auto;
 	border-radius: 50%;
-	
+	padding: 20px;
 }
 .logo-container{
 	display: flex;
@@ -70,7 +70,7 @@ p{
 }
 .bonfire{
 	display: flex;
-	width: 140%;
+	width: 85%;
 	border-radius: 1.5em;
 	box-shadow: 0px,0px,2em,0px,black;
 	opacity: 90%;
