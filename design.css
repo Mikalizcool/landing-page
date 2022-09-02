@@ -129,3 +129,18 @@ content{
   margin-right: auto;
   width: 50%;
 }
+.rectangle{
+	display: flex;
+	height: 150px;
+	width: 1000px;
+	background-color: grey;
+	margin: 100px;
+	border-radius: 1.5em;
+	justify-content: center;
+}
+.footer-text{
+	width:70%;
+	font-size: 30px;
+	color: white;
+	
+}
