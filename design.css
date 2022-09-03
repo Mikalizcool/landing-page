@@ -32,6 +32,8 @@
 	text-align: center;
 	font-style: italic;
 	font-size: 20px;
+	font-weight: bold;
+	color: #151413;
 }
 .link{
 	font-size: 25px;
@@ -120,15 +122,17 @@ content{
 	text-align: center;
 	font-weight: bold;
 	font-size: 25px;
+	color: white;
 }
 .portrait{
 	position: relative;
 	height: auto;
 	border-radius: 50%;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border: 5px solid #151413;
 }
 .rectangle{
 	display: flex;
