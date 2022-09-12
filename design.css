@@ -226,37 +226,6 @@
 		justify-content: center;
 		align-items: center;
 	}
-
-	
-
-	.nav-close:hover {
-	  background: rgba(255, 255, 255, 0.05);
-	}
-
-	.nav-links-container {
-		display: flex;
-		flex-direction: column;
-	  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
-	}
-
-	.nav__link {
-	  display: flex;
-	  align-items: center;
-	  justify-content: space-between;
-	  padding: 15px 25px;
-	  text-decoration: none;
-	  color: #dddddd;
-	}
-
-	.nav__text {
-	  font-size: 22px;
-	  font-family: "Assistant", sans-serif;
-	  font-weight: 500;
-	}
-
-	.nav__link:hover {
-	  background: rgba(255, 255, 255, 0.05);
-	}
 	
 	.flex-container-center{
 		display: flex;
@@ -283,12 +252,6 @@
 	.flex-container-5{
 		display: flex;
 		width: 10%;
-	}
-	
-	.flex-container-video{
-		display: flex;
-		justify-content: center;
-		margin-top: 50px;
 	}
 	
 	.rectangle-container1{
