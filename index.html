@@ -7,26 +7,43 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 		
 		<link href='./design.css' rel='stylesheet'>
-		<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
 		
 	</head>
 	<body style="background-color: #1F2937; padding:0;margin:0;">
 		
+		
+		<main class="main">
 		<header style = "background-image: url('b.gif');background-size: cover">
-			<div class="flex-container">
-				<div class="logo-container"> <img src="bonfirepic.png" class="logo"> </div>
-				<div class="nav">
-					<div> <p class="link"> <a href="">  Firelink Shrine  </a></p> </div>
-					<div> <p class="link"> <a href=""> Lothric  </a> </p> </div>
-					<div> <p class="link"> <a href=""> Anor Londo </a> </p> </div>
+			<div class="flex-container-g">
+				<div class="flex-container-5"> <button id="navButton" onclick="toggleNav()"> <p class="button-text"> <b> ___ <br> ___ <br> ___ </b> </p> </button> </div>
+			
+			</div>
+			<nav class="nav">
+			<button type="button" class="nav-close" onclick="toggleNav()">
+			  
+			</button>
+			<div class="nav-box" style="display:flex">
+				<div class="nav-links-container"">
+				  <a href="" target="_blank" class="nav__link">
+					<span class="nav__text"> Firelink Shrine </span>
+				  </a>
+				  <a href="" target="_blank" class="nav__link">
+					<span class="nav__text"> Lothric </span>
+				  </a>
+				  <a href="" target="_blank" class="nav__link">
+					<span class="nav__text"> Anor Londo </span>
+				  </a>
 				</div>
 			</div>
+		</nav>
 			<div class="flex-container">
-				<div class="message"> <h1> Welcome to the bonfire </h1> <p> A brief rest from the chaos of your adventure. </p> <p class="button"> JOIN </p> </div>
-				<div class="bonfire-container"> <img src="bonfire.gif" class="bonfire" style="margin-bottom: 100px; margin-top: 50px;"> </div>
+				<div class="logo-container"> <img src="bonfirepic.png" class="logo"> </div>
+			</div>
+			<div class="flex-container">
+				<div class="flex-container"> <h1> Welcome to the bonfire </h1> </div>
+				<div class="flex-container"> <p class="description"> A brief rest from the chaos of your adventure. </p> </div>
+				<div class="flex-container"> <button class="button"> JOIN </button> </div>
+				<img src="bonfire.gif" class="bonfire" style="margin-bottom: 100px; margin-top: 50px;">
 			</div>
 		</header>
 		<div class = "flex-container" style = "background-color: #C39209;">
@@ -34,31 +51,41 @@
 				<div> <h2 style = "font-size: 36px; color: white;"> Companions </h2> </div>
 			</div>
 			
-			<div class="flex-container">
-				<div class="companions">
-					<div> <p class="names"> Laonida </p> <img src = "logo.png" class = "portrait"> <p class="companion-message"> 
-					"Move along, stranger. There are no friends here." </p> </div>
-					<div> <p class="names"> Mordin </p> <img src = "mordin.png" class = "portrait"> <p class="companion-message"> 
-					"Oh, hello there. Fascinating place, isn't it?" </p> </div>
-					<div> <p class="names"> Dice </p> <img src = "man.png" class = "portrait"> <p class="companion-message"> 
-					"I'm just resting for a bit. I'm on an important journey." </p> </div>
-					<div> <p class="names"> Toph </p> <img src = "toph.png" class = "portrait"> <p class="companion-message"> 
-					"Hey, twinkle toes. You're welcome to sit here but hands off my food!" </p> </div>
-				</div>	
-			</div>
+			
+			<div class="companions">
+				<div> <p class="names"> Laonida </p> <img src = "logo.png" class = "portrait"> <p class="companion-message"> 
+				"Move along, stranger. There are no friends here." </p> </div>
+				<div> <p class="names"> Mordin </p> <img src = "mordin.png" class = "portrait"> <p class="companion-message"> 
+				"Oh, hello there. Fascinating place, isn't it?" </p> </div>
+				<div> <p class="names"> Dice </p> <img src = "man.png" class = "portrait"> <p class="companion-message"> 
+				"I'm just resting for a bit. I'm on an important journey." </p> </div>
+				<div> <p class="names"> Toph </p> <img src = "toph.png" class = "portrait"> <p class="companion-message"> 
+				"Hey, twinkle toes. You're welcome to sit here but hands off my food!" </p> </div>
+			</div>	
+			
 		</div>
 		<div class = "flex-container" style = "background-color: #E5E7EB; align-items: center;">
 			<div class="quote">
 				<p class = "quote-text"> "The dragons shall never be forgotten… We knights fought valiantly, but for every one of them, we lost three score of our own.
 				Exhiliration, pride, hatred, rage… The dragons teased out our dearest emotions. …Thou will understand, one day. At thy twilight, 
-				old thoughts return, in great waves of nostalgia." <b> - Hawkeye Gough </b> </p>
+				old thoughts return, in great waves of nostalgia." <br> <b> - Hawkeye Gough </b> </p>
 		
 			</div>
 		</div>
-		<footer>
-			<div class="flex-container">
-				<div class="rectangle"> <p class="footer-text"> <b> Take a seat! </b> <br> The fire is warm and there's a seat open for you! <div> <p class="button" style="margin-top:45px;"> JOIN </p> </div></div>
-			</div>
-		</footer>
+		
+		<div class="flex-container">
+			<div class="rectangle">
+				<p class="footer-text"> <b> Take a seat! </b> <br> The fire is warm and there's a seat open for you! </p> 
+				<div class="join"> <button class="button"> JOIN </button> </div>
+		</div>
+		</main>
+		
+		
+		<script>
+			function toggleNav() {
+			  document.body.classList.toggle("nav-open");
+			}
+		</script>
+		
 	</body>
 </html>
