@@ -31,23 +31,27 @@
 			</nav>
 		<main class="main">
 		
-			<div class="flex-container-g">
-				<div class="flex-container-5"> <button id="navButton" onclick="toggleNav()"> <p class="button-text"> <b> ___ <br> ___ <br> ___ </b> </p> </button> </div>
-			
-			</div>
-			
 			<div class="flex-container">
-				<div class="logo-container"> <img src="bonfirepic.png" class="logo"> </div>
+				<div class="flex-container-nav"> <button id="navButton" onclick="toggleNav()"> <div class="container" onclick="myFunction(this)">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+			</div> </button> 
 			</div>
-			<div class="flex-container">
-				<div class="flex-container"> <h1 class="welcome"> Welcome to the bonfire </h1> </div>
+			</div>
+			<div class="logo-container"> <img src="bonfirepic.png" class="logo"> </div>
+			
+				
+			
+			<div class="flex-new">
+				<div class="flex-container-center"> <h1 class="welcome"> Welcome to the bonfire </h1> </div>
 				<div class="flex-container"> <p class="description"> A brief rest from the chaos of your adventure. </p> </div>
-				<div class="flex-container"> <button class="button"> JOIN </button> </div>
+				<div class="flex-container-center"> <button class="button"> JOIN </button> </div>
 				<div class="flex-container-img"> <img src="bonfire.gif" class="bonfire" style="margin-bottom: 100px; margin-top: 50px;"> </div>
 			</div>
 		</header>
-		<div class = "flex-container" style = "background-color: #C39209;">
-			<div class="flex-container">
+		<div class = "flex-new" style = "background-color: #C39209;">
+			<div class="flex-container-center">
 				<div> <h2 style = "font-size: 36px; color: white;"> Companions </h2> </div>
 			</div>
 			
@@ -64,12 +68,11 @@
 			</div>	
 			
 		</div>
-		<div class = "flex-container" style = "background-color: #E5E7EB; align-items: center;">
+		<div class = "flex-container-center" style = "background-color: #E5E7EB; align-items: center;">
 			<div class="quote">
 				<p class = "quote-text"> "The dragons shall never be forgotten… We knights fought valiantly, but for every one of them, we lost three score of our own.
 				Exhiliration, pride, hatred, rage… The dragons teased out our dearest emotions. …Thou will understand, one day. At thy twilight, 
 				old thoughts return, in great waves of nostalgia." <br> <b> - Hawkeye Gough </b> </p>
-		
 			</div>
 		</div>
 		
@@ -83,10 +86,13 @@
 		
 		
 		<script>
-			function toggleNav() {
-			  document.body.classList.toggle("nav-open");
-			}
-		</script>
+		function myFunction(x) {
+			x.classList.toggle("change");
+		}
+		function toggleNav() {
+			document.body.classList.toggle("nav-open");
+		}
+    </script>
 		
 	</body>
 </html>

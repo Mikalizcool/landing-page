@@ -65,27 +65,30 @@
 	.main {
 	  transition: transform 0.2s;
 	}
+	.flex-container-nav{
+		display: flex;
+		width: 10%;
+	}
 	#navButton{
 		display: flex;
-		background-color: #383838;
+		background-color: transparent;
 		width: 200px;
 		height: 50px;
 		justify-content: center;
 		align-items: center;
-		border-radius: 10px;
+		border-style: none;
 	}
 	.flex-container{
+		display: flex;
+	}
+	.flex-new{
 		width: 100%;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content:center;
+		flex-direction: column;
 	}
-	.flex-container1{
-		width: 100%;
-		display: flex;
-		flex-flow: column wrap;
-		justify-content:center;
-	}
+	
 
 	
 	.companions{
@@ -121,6 +124,7 @@
 		font-size: 36px;
 		font-style: italic;
 		text-align: center;
+		justify-content: center;
 	}
 	.logo{
 		position: relative;
@@ -131,8 +135,6 @@
 	}
 	.logo-container{
 		display: flex;
-		position: relative;
-		width: 40%;
 		align-items: center;
 		justify-content: center;
 	}
@@ -234,12 +236,11 @@
 	.flex-container-center{
 		display: flex;
 		justify-content: center;
-		flex-direction: column;
 	}
 	
 	.flex-container{
 		display: flex;
-		justify-content: center;
+		
 	}
 	.flex-container-img{
 		display: flex;
@@ -250,27 +251,11 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.flex-container-g{
-		display: flex;
-	}
 	
-	.flex-container-4{
-		display: flex;
-		justify-content: center;
-		width: 80%;
-		font-size: 10px;
-	}
 	
-	.flex-container-5{
-		display: flex;
-		width: 10%;
-	}
 	
-	.rectangle-container1{
-		display: flex;
-		background-color: #314aa9;
-		justify-content: center;
-	}
+	
+	
 	
 	.button-text{
 		line-height: 10px;
@@ -298,6 +283,32 @@
 	.description{
 		text-align: center;
 	}
+	.container{
+		  display: inline-block;
+		  cursor: pointer;
+	}
+
+	.bar1, .bar2, .bar3{
+	  width: 35px;
+	  height: 5px;
+	  background-color: #333;
+	  margin: 6px 0;
+	  transition: 0.4s;
+	}
+
+	.change .bar1{
+	  transform: translate(0, 11px) rotate(-45deg);
+	}
+
+	.change .bar2{opacity: 0;}
+
+	.change .bar3{
+	  transform: translate(0, -11px) rotate(45deg);
+	}
+	.flex-container-nav{
+		display: flex;
+		width: 10%;
+	}
 }
 @media only screen and (min-width: 768px) {
 	/* For desktop: */
@@ -305,12 +316,6 @@
 		width: 100%;
 		display: flex;
 		flex-flow: row wrap;
-		justify-content:center;
-	}
-	.flex-container1{
-		width: 100%;
-		display: flex;
-		flex-flow: column wrap;
 		justify-content:center;
 	}
 
@@ -356,16 +361,13 @@
 		text-align: center;
 	}
 	.logo{
-		position: relative;
-		width: 45%;
+		width: 15%;
 		height: auto;
 		border-radius: 50%;
 		padding: 20px;
 	}
 	.logo-container{
 		display: flex;
-		position: relative;
-		width: 40%;
 		align-items: center;
 		justify-content: center;
 	}
@@ -384,7 +386,7 @@
 	}
 	.bonfire{
 		display: flex;
-		width: 80%;
+		width: 40%;
 		border-radius: 1.5em;
 		box-shadow: 0px,0px,2em,0px,black;
 		opacity: 90%;
@@ -457,7 +459,7 @@
 	footer{
 		background-color: #642709;
 	}
-	/* */
+
 	a{
 		display: flex;
 		text-decoration: none;
@@ -481,44 +483,26 @@
 	.flex-container{
 		display: flex;
 	}
-	.rectangle-container{
-		display: flex;
-		background-color: #283962;
-	}
-	.rectangle-container1{
-		display: flex;
-		background-color: #314aa9;
-		width: 50%;
-		justify-content: center;
-		align-items: center;
-	}
-	.desktop-logo{
-		display:flex;
-		width:40%;
-		margin-right:50px;
-	}
+
+	
 	.nav-links-container{
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
 	}
-	.flex-container-5{
+	.flex-container-nav{
 		visibility: hidden;
 	}
+	
 	.nav-close{
 		visibility: hidden;
 	}
 	
-	.flex-container-g{
-		display: none;
-	}
-	.flex-container-video{
-		display: flex;
-		width: 50%;
-		
-	}
+	
+	
 	.flex-container-center{
 		display: flex;
+		justify-content: center;
 	}
 	.nav__text{
 		font-size: 15px;
