@@ -96,12 +96,12 @@
 		flex-direction: column;
 	}
 	.companion-message{
-		width: 100%;
 		text-align: center;
 		font-style: italic;
 		font-size: 20px;
 		font-weight: bold;
 		color: #151413;
+		padding: 40px;
 	}
 	.link{
 		font-size: 25px;
@@ -191,7 +191,7 @@
 		text-align: center;
 		font-weight: bold;
 		font-size: 25px;
-		color: white;
+		color: black;
 	}
 	.portrait{
 		height: auto;
@@ -309,6 +309,9 @@
 		display: flex;
 		width: 10%;
 	}
+	.companion-container{
+		background-image: url('parchment-vertical.png');
+	}
 }
 @media only screen and (min-width: 768px) {
 	/* For desktop: */
@@ -331,12 +334,12 @@
 		display: flex;
 	}
 	.companion-message{
-		width: 100%;
-		text-align: center;
+		text-align: left;
 		font-style: italic;
 		font-size: 20px;
 		font-weight: bold;
 		color: #151413;
+		padding: 40px;
 	}
 	.link{
 		font-size: 25px;
@@ -428,7 +431,7 @@
 		text-align: center;
 		font-weight: bold;
 		font-size: 25px;
-		color: white;
+		color: black;
 	}
 	.portrait{
 		position: relative;
@@ -522,5 +525,8 @@
 	}
 	.description{
 		text-align: center;
+	}
+	.companion-container{
+		background-image: url('parchment.png');
 	}
 }
