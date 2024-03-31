@@ -121,7 +121,7 @@
 	}
 	.quote-text{
 		color: #1F2937;
-		font-size: 36px;
+		font-size: 16px;
 		font-style: italic;
 		text-align: center;
 		justify-content: center;
@@ -214,7 +214,7 @@
 	}
 	.footer-text{
 		width:70%;
-		font-size: 30px;
+		font-size: 16px;
 		color: white;
 		text-align: center;
 	}
